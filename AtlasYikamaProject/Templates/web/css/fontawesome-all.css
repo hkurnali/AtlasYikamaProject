@@ -1897,14 +1897,15 @@ readers do not read off random characters that represent icons */
 .fa-qrcode:before {
   content: "\f029"; }
 
-.fa-question:before {
-  content: "\f128"; }
+.fa-bug:before {
+    content: "\f128";
+}
 
 .fa-question-circle:before {
   content: "\f059"; }
 
 .fa-quidditch:before {
-  content: "\f458"; }
+    content: "\f188";}
 
 .fa-quinscape:before {
   content: "\f459"; }

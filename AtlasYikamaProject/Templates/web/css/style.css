@@ -217,7 +217,7 @@ li.login-list-w3ls.d-inline a {
 }
 
 .banner-w3-2 {
-    background: url(../images/isa3.jpg)no-repeat center;
+    background: url(../images/isa2.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -226,7 +226,7 @@ li.login-list-w3ls.d-inline a {
 }
 
 .banner-w3-3 {
-    background: url(../images/isa4.jpg)no-repeat center;
+    background: url(../images/isa3.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -649,7 +649,7 @@ a.animated-button.victoria-two:after {
 
 .icons-w3ls.mid-sec-agile h5 {
     font-size: 31px;
-    font-weight: 900;
+    font-weight: 400;
 }
 
 i.fas.fa-align-center.pt-4 {
@@ -743,7 +743,7 @@ li.list-agiles {
 }
 
 .carousel-item.item-1 {
-    background: url(../images/m1.jpg)no-repeat top;
+    background: url(../images/isa4.jpg)no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -752,7 +752,7 @@ li.list-agiles {
 }
 
 .carousel-item.item-2 {
-    background: url(../images/m2.jpg)no-repeat top;
+    background: url(../images/isa5.jpg)no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -761,7 +761,7 @@ li.list-agiles {
 }
 
 .carousel-item.item-3 {
-    background: url(../images/m3.jpg)no-repeat top;
+    background: url(../images/isa3.jpg)no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -770,7 +770,7 @@ li.list-agiles {
 }
 
 .carousel-item.item-4 {
-    background: url(../images/m4.jpg)no-repeat top;
+    background: url(../images/isa1.jpg)no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -883,7 +883,7 @@ footer {
 /* //footer */
 /* Inner pages */
 .banner2-w3ls {
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(../images/isa11.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
