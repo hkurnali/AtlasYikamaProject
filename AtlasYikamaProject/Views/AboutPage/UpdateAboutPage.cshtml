@@ -1,0 +1,31 @@
+﻿@model AtlasYikamaProject.DAL.Entitys.AboutPage
+@{
+    ViewBag.Title = "UpdateAboutPage";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h2>Hakkımda  Güncelleme Sayfası</h2>
+
+<form method="post">
+
+    <label>Hakkımızda ID</label>
+    @Html.TextBoxFor(x => x.AboutPageID, new { @class = "form-control" })
+    <label>Başlık  </label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    <label>Açıklama </label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <label>Başlık 2</label>
+    @Html.TextBoxFor(x => x.Title2, new { @class = "form-control" })
+    <br />
+    <label>Açıklama 2</label>
+    @Html.TextBoxFor(x => x.Description2, new { @class = "form-control" })
+    <br />
+
+
+
+    <button class="btn btn-success">Kaydet</button>
+</form>
+

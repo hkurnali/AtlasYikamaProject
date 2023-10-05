@@ -1,0 +1,43 @@
+﻿<script src="~/Templates/web/js/jquery-2.2.3.min.js"></script>
+<!-- Default-JavaScript-File -->
+<!-- Banner Responsiveslides -->
+<script src="~/Templates/web/js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 4
+        $("#slider3").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: false,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+</script>
+<!-- // Banner Responsiveslides -->
+<!-- progresscircle -->
+<script src="~/Templates/web/js/progresscircle.js"></script>
+<script>
+    $('.circlechart').circlechart(); // Initialization
+</script>
+<!-- //progresscircle -->
+<!-- smooth scrolling -->
+<script src="~/Templates/web/js/SmoothScroll.min.js"></script>
+<!-- move-top -->
+<script src="~/Templates/web/js/move-top.js"></script>
+<!-- easing -->
+<script src="~/Templates/web/js/easing.js"></script>
+<!--  necessary snippets for few javascript files -->
+<script src="~/Templates/web/js/cleaning.js"></script>
+
+<script src="~/Templates/web/js/bootstrap.js"></script>
+<!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //Js files -->

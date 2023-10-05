@@ -1,0 +1,36 @@
+﻿@model List<AtlasYikamaProject.DAL.Entitys.About2>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h2>Hakkımda 2 Listesi</h2>
+<table class="table table-bordered">
+
+    <tr>
+
+        <th>Başlık </th>
+        <th>Başlık 2</th>
+        <th>Açıklama</th>
+        <th>Görsel</th>
+       
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+        <tr>
+
+            <td>@item.Title</td>
+            <td>@item.Title2</td>
+            <td>@item.Description</td>
+            <td>@item.Image</td>
+           
+
+            <td><a href="/About2/UpdateAbout2/@item.About2ID" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+

@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+@Html.Action("PartialHead", "Default")
+
+<body>
+    <!-- header -->
+    @Html.Action("PartialHeader", "Default")
+    <!-- //header -->
+    <!-- banner 2 -->
+    <div class="banner2-w3ls">
+
+    </div>
+    <!-- //banner 2 -->
+    <!-- page details -->
+    <div class="breadcrumb-agile">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="index.html">Anasayfa</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Hakkımızda</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- //page details -->
+    <!-- about -->
+   @Html.Action("PartialAbout")
+    <!-- //about -->
+    <!-- middle section -->
+    @Html.Action("PartialAbout2", "Default")
+    <!-- //middle section -->
+    <!-- services -->
+    @Html.Action("PartialService", "Default")
+    <!-- //services -->
+    <!-- progress -->
+    @Html.Action("PartialProgress", "Default")
+    <!-- //progress -->
+    <!-- team -->
+    <!-- //team -->
+    <!-- footer -->
+    @Html.Action("PartialFooter", "Default")
+    <!-- //footer -->
+    <!-- Js files -->
+    <!-- JavaScript -->
+    @Html.Action("PartialScript", "Default")
+
+</body>
+
+</html>

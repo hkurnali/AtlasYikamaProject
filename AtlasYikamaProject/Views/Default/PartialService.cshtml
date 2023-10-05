@@ -1,0 +1,60 @@
+﻿@model List<AtlasYikamaProject.DAL.Entitys.Service>
+<section class="services-w3ls py-5">
+    <div class="container py-xl-5 py-lg-3">
+        <div class="row">
+            <div class="col-lg-5 agileits_works-grid">
+                <h3 class="tittle mb-xl-5 mb-4 text-dark text-uppercase font-weight-bold pl-4 py-3">Hİzmetlerİmİz</h3>
+            </div>
+            <div class="col-lg-7 para-right-title">
+                <h5 class="py-3 text-dark">Siz isteyin biz gelelim. Nerde olursanız olun size bir telefon kadar yakınız.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-sm-0">
+                <div class="icons-w3ls text-white p-4">
+                    <i class="fa fa-car py-4"></i>
+                    <h5 class="text-uppercase">Araç Koltuğu Temizliği</h5>
+                </div>
+                @foreach(var item in Model)
+                {
+                <p class="p-4">
+                    
+
+                   @item.Description1
+                </p>
+                }
+                <a href="offers.html" class="btn btn-sm animated-button victoria-two text-dark mt-4">Devamını Oku</a>
+            </div>
+            <div class="col-md-4 p-sm-0 my-md-0 my-5">
+                <div class="icons-w3ls text-white p-4 mid-sec-agile">
+                    <h5 class="text-uppercase pb-2 text-center">Ev Koltukları </h5>
+                    <i class="fas fa-align-center pt-4"></i>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <p class="p-4">
+
+
+                        @item.Description2
+                    </p>
+                }
+                <a href="offers.html" class="btn btn-sm animated-button victoria-two text-dark mt-4">Devamını Oku</a>
+            </div>
+            <div class="col-md-4 p-sm-0">
+                <div class="icons-w3ls text-white p-4">
+                    <i class="fas fa-quidditch py-4"></i>
+                    <h5 class="text-uppercase">Döşeme Temizliği</h5>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <p class="p-4">
+
+
+                        @item.Description3
+                    </p>
+                }
+                <a href="offers.html" class="btn btn-sm animated-button victoria-two text-dark mt-4">Devamını OKU</a>
+            </div>
+        </div>
+    </div>
+</section>

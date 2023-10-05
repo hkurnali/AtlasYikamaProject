@@ -1,0 +1,24 @@
+﻿@model List<AtlasYikamaProject.DAL.Entitys.Comment>
+<section class="news-w3ls py-5">
+    <div class="container py-xl-5 py-lg-3">
+        <div class="comment-top">
+            <h4 class="  text-center mb-lg-5">Yorumlar</h4>
+            @foreach (var item in Model)
+            {
+                <div class="media mb-2">
+                    <img src="@item.Image" alt="" class="img-fluid rounded" />
+                    <div class="media-body">
+
+                        <h5 class="ml-2">@item.Name</h5>
+                        <p class="ml-2">
+                            @item.Description
+                        </p>
+
+                      
+                    </div>
+                </div>
+            }
+            </div>
+
+    </div>
+</section>

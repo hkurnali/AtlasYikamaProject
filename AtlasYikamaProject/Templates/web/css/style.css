@@ -208,7 +208,7 @@ li.login-list-w3ls.d-inline a {
 }
 
 .banner-w3-1 {
-    background: url(../images/isa1.jpg)no-repeat center;
+    background: url(../images/isa3.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -226,7 +226,7 @@ li.login-list-w3ls.d-inline a {
 }
 
 .banner-w3-3 {
-    background: url(../images/isa3.jpg)no-repeat center;
+    background: url(../images/isa12.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -520,7 +520,8 @@ p.movetxt span {
 /* banner bottom */
 h3.tittle, h2.tittle {
     font-size: 34px;
-    border-left: 2px solid #22a6f5;
+    border-left: 4px solid #22a6f5;
+    border-bottom: 4px solid #22a6f5;
 }
 
 h3.tittle, h2.tittle span {
@@ -543,7 +544,7 @@ p.progress-texts {
 /* //banner bottom */
 /* middle section */
 .middle-w3ls {
-    background: url(../images/isa8.jpg)no-repeat bottom;
+    background: url(../images/yenifoto2.jpg)no-repeat bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -635,27 +636,26 @@ a.animated-button.victoria-two:after {
     background: #16293e;
 }
 
-.icons-w3ls i {
-    font-size: 42px;
-}
+    .icons-w3ls i {
+        font-size: 42px;
+    }
 
-.icons-w3ls h5 {
-    letter-spacing: 2px;
-}
+    .icons-w3ls h5 {
+        letter-spacing: 2px;
+    }
 
-.icons-w3ls.mid-sec-agile {
-    background: #22a6f5;
-}
+    .icons-w3ls.mid-sec-agile {
+        background: #22a6f5;
+    }
 
-.icons-w3ls.mid-sec-agile h5 {
-    font-size: 31px;
-    font-weight: 400;
-}
+        .icons-w3ls.mid-sec-agile h5 {
+            font-size: 31px;
+            font-weight: 900;
+        }
 
 i.fas.fa-align-center.pt-4 {
     font-size: 45px;
 }
-
 /* //services */
 /* posts */
 .post-w3ls-bottom ul.list-unstyled li {
@@ -717,10 +717,12 @@ i.fas.fa-align-center.pt-4 {
 }
 
 .phone .iphone5-screen {
-    left: 8.2%;
+    left:9.2%;
     position: absolute;
     right: 8.2%;
     top: 14.5%;
+  /* margin-bottom:2.3%;*/
+    
 }
 
 .feature {
@@ -749,6 +751,8 @@ li.list-agiles {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
+    border-radius: 5px;
+   
 }
 
 .carousel-item.item-2 {
@@ -758,6 +762,7 @@ li.list-agiles {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .carousel-item.item-3 {
@@ -767,15 +772,17 @@ li.list-agiles {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .carousel-item.item-4 {
-    background: url(../images/isa1.jpg)no-repeat top;
+    background: url(../images/isa2.jpg)no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .carousel-item {

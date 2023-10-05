@@ -1,0 +1,40 @@
+﻿@model List<AtlasYikamaProject.DAL.Entitys.AboutPage>
+
+<div class="about-w3ls-welcome py-5">
+    <div class="container py-xl-5 py-lg-3">
+        <h3 class="tittle mb-xl-5 mb-4 text-dark text-uppercase font-weight-bold pl-4 py-3">Hakkımızda</h3>
+        <div class="row w3ls-welcome-grids">
+            <div class="col-xl-4 w3l-welcome-left">
+                <h4 class="mb-4 title-2-agiles">Hoşgeldiniz</h4>
+                @foreach( var item in Model)
+                {
+                <h5>@item.Title</h5>
+                <p class="mt-3">
+                   @item.Description
+                    
+                </p>
+                }
+            </div>
+            <div class="col-xl-4 w3l-welcome-img my-xl-0 my-4 text-center">
+                <img src="~/Templates/web/images/isa_arkayoksol.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-xl-4 w3l-welcome-left">
+                <h4 class="mb-4 title-2-agiles">Neden Atlas Yıkama ?</h4>
+                @foreach( var item in Model)
+                {
+                <h5>
+                    @item.Title2
+
+
+                </h5>
+                <p class="mt-3">
+                    @item.Description2
+                </p>
+                }
+                <div class="w3l-button">
+                    <a href="single.html" class="btn btn-sm animated-button victoria-two text-dark mt-4">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
